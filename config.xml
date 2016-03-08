@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<fgs_config>
+  <userid>mvxtest</userid>
+  <requestor_code>02300</requestor_code>
+  <password_expire_date>42209</password_expire_date>
+  <drive_files_saved_in>c:\documents and settings\mvtwv</drive_files_saved_in>
+  <drive_letter_image_saved_in>C:\Documents and Settings\mvtwv\My Documents\My Pictures\Alpine county.JPG</drive_letter_image_saved_in>
+  <drive_vrdatabase_saved_in />
+  <vr_inquiry>True</vr_inquiry>
+  <dl_inquiry>False</dl_inquiry>
+  <vr_parking_holds>False</vr_parking_holds>
+  <epn_add_delete>True</epn_add_delete>
+  <name>City of Test</name>
+  <street_address>123 anytown</street_address>
+  <city>Anytown</city>
+  <state>Ca</state>
+  <zip>95822</zip>
+  <email>parking@CityofTest.com</email>
+  <web_address>www.anytown.gov</web_address>
+  <phone>(916) 683-1051</phone>
+  <cite_letter_text>Wow this is great</cite_letter_text>
+</fgs_config>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dl_records" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" xmlns:NameSpace1="urn:schemas-microsoft-com:xml-msdatasource">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dl_records" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dl_records" msprop:Generator_DataSetName="dl_records">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dl_record" msprop:Generator_UserTableName="dl_record" msprop:Generator_RowDeletedName="dl_recordRowDeleted" msprop:Generator_TableClassName="dl_recordDataTable" msprop:Generator_RowChangedName="dl_recordRowChanged" msprop:Generator_RowClassName="dl_recordRow" msprop:Generator_RowChangingName="dl_recordRowChanging" msprop:Generator_RowEvArgName="dl_recordRowChangeEvent" msprop:Generator_RowEvHandlerName="dl_recordRowChangeEventHandler" msprop:Generator_TablePropName="dl_record" msprop:Generator_TableVarName="tabledl_record" msprop:Generator_RowDeletingName="dl_recordRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dlnumber" msprop:Generator_UserColumnName="dlnumber" msprop:Generator_ColumnPropNameInRow="dlnumber" msprop:Generator_ColumnVarNameInTable="columndlnumber" msprop:Generator_ColumnPropNameInTable="dlnumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fo_bates" msprop:Generator_UserColumnName="fo_bates" msprop:Generator_ColumnPropNameInRow="fo_bates" msprop:Generator_ColumnVarNameInTable="columnfo_bates" msprop:Generator_ColumnPropNameInTable="fo_batesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="type_app" msprop:Generator_UserColumnName="type_app" msprop:Generator_ColumnPropNameInRow="type_app" msprop:Generator_ColumnVarNameInTable="columntype_app" msprop:Generator_ColumnPropNameInTable="type_appColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="misc_info" msprop:Generator_UserColumnName="misc_info" msprop:Generator_ColumnPropNameInRow="misc_info" msprop:Generator_ColumnVarNameInTable="columnmisc_info" msprop:Generator_ColumnPropNameInTable="misc_infoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="req_code" msprop:Generator_UserColumnName="req_code" msprop:Generator_ColumnPropNameInRow="req_code" msprop:Generator_ColumnVarNameInTable="columnreq_code" msprop:Generator_ColumnPropNameInTable="req_codeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="rec_date" msprop:Generator_UserColumnName="rec_date" msprop:Generator_ColumnPropNameInRow="rec_date" msprop:Generator_ColumnVarNameInTable="columnrec_date" msprop:Generator_ColumnPropNameInTable="rec_dateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dmv_info_line" msprop:Generator_UserColumnName="dmv_info_line" msprop:Generator_ColumnPropNameInRow="dmv_info_line" msprop:Generator_ColumnVarNameInTable="columndmv_info_line" msprop:Generator_ColumnPropNameInTable="dmv_info_lineColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="birthdate" msprop:Generator_UserColumnName="birthdate" msprop:Generator_ColumnPropNameInRow="birthdate" msprop:Generator_ColumnVarNameInTable="columnbirthdate" msprop:Generator_ColumnPropNameInTable="birthdateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sex" msprop:Generator_UserColumnName="sex" msprop:Generator_ColumnPropNameInRow="sex" msprop:Generator_ColumnVarNameInTable="columnsex" msprop:Generator_ColumnPropNameInTable="sexColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="height" msprop:Generator_UserColumnName="height" msprop:Generator_ColumnPropNameInRow="height" msprop:Generator_ColumnVarNameInTable="columnheight" msprop:Generator_ColumnPropNameInTable="heightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="weight" msprop:Generator_UserColumnName="weight" msprop:Generator_ColumnPropNameInRow="weight" msprop:Generator_ColumnVarNameInTable="columnweight" msprop:Generator_ColumnPropNameInTable="weightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="eyes" msprop:Generator_UserColumnName="eyes" msprop:Generator_ColumnPropNameInRow="eyes" msprop:Generator_ColumnVarNameInTable="columneyes" msprop:Generator_ColumnPropNameInTable="eyesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="hair" msprop:Generator_UserColumnName="hair" msprop:Generator_ColumnPropNameInRow="hair" msprop:Generator_ColumnVarNameInTable="columnhair" msprop:Generator_ColumnPropNameInTable="hairColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="vol_req" msprop:Generator_UserColumnName="vol_req" msprop:Generator_ColumnPropNameInRow="vol_req" msprop:Generator_ColumnVarNameInTable="columnvol_req" msprop:Generator_ColumnPropNameInTable="vol_reqColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lic_class" msprop:Generator_UserColumnName="lic_class" msprop:Generator_ColumnPropNameInRow="lic_class" msprop:Generator_ColumnVarNameInTable="columnlic_class" msprop:Generator_ColumnPropNameInTable="lic_classColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lic_class_name" msprop:Generator_UserColumnName="lic_class_name" msprop:Generator_ColumnPropNameInRow="lic_class_name" msprop:Generator_ColumnVarNameInTable="columnlic_class_name" msprop:Generator_ColumnPropNameInTable="lic_class_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lic_issue" msprop:Generator_UserColumnName="lic_issue" msprop:Generator_ColumnPropNameInRow="lic_issue" msprop:Generator_ColumnVarNameInTable="columnlic_issue" msprop:Generator_ColumnPropNameInTable="lic_issueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lic_expire" msprop:Generator_UserColumnName="lic_expire" msprop:Generator_ColumnPropNameInRow="lic_expire" msprop:Generator_ColumnVarNameInTable="columnlic_expire" msprop:Generator_ColumnPropNameInTable="lic_expireColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ext" msprop:Generator_UserColumnName="ext" msprop:Generator_ColumnPropNameInRow="ext" msprop:Generator_ColumnVarNameInTable="columnext" msprop:Generator_ColumnPropNameInTable="extColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="restrict" msprop:Generator_UserColumnName="restrict" msprop:Generator_ColumnPropNameInRow="restrict" msprop:Generator_ColumnVarNameInTable="columnrestrict" msprop:Generator_ColumnPropNameInTable="restrictColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dup_lic_iss" msprop:Generator_UserColumnName="dup_lic_iss" msprop:Generator_ColumnPropNameInRow="dup_lic_iss" msprop:Generator_ColumnVarNameInTable="columndup_lic_iss" msprop:Generator_ColumnPropNameInTable="dup_lic_issColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lic_held" msprop:Generator_UserColumnName="lic_held" msprop:Generator_ColumnPropNameInRow="lic_held" msprop:Generator_ColumnVarNameInTable="columnlic_held" msprop:Generator_ColumnPropNameInTable="lic_heldColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="seq_no" msprop:Generator_UserColumnName="seq_no" msprop:Generator_ColumnPropNameInRow="seq_no" msprop:Generator_ColumnVarNameInTable="columnseq_no" msprop:Generator_ColumnPropNameInTable="seq_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="name_or_addr" nillable="true" msprop:Generator_UserTableName="name_or_addr" msprop:Generator_RowDeletedName="name_or_addrRowDeleted" msprop:Generator_TableClassName="name_or_addrDataTable" msprop:Generator_RowChangedName="name_or_addrRowChanged" msprop:Generator_RowClassName="name_or_addrRow" msprop:Generator_RowChangingName="name_or_addrRowChanging" msprop:Generator_RowEvArgName="name_or_addrRowChangeEvent" msprop:Generator_RowEvHandlerName="name_or_addrRowChangeEventHandler" msprop:Generator_TablePropName="name_or_addr" msprop:Generator_TableVarName="tablename_or_addr" msprop:Generator_RowDeletingName="name_or_addrRowDeleting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent msprop:Generator_UserColumnName="name_or_addr_Text" msprop:Generator_ColumnPropNameInRow="name_or_addr_Text" msprop:Generator_ColumnVarNameInTable="columnname_or_addr_Text" msprop:Generator_ColumnPropNameInTable="name_or_addr_TextColumn" msdata:ColumnName="name_or_addr_Text" msdata:Ordinal="0">
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="dl_record_Id" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="abstract" nillable="true" msprop:Generator_UserTableName="abstract" msprop:Generator_RowDeletedName="abstractRowDeleted" msprop:Generator_TableClassName="abstractDataTable" msprop:Generator_RowChangedName="abstractRowChanged" msprop:Generator_RowClassName="abstractRow" msprop:Generator_RowChangingName="abstractRowChanging" msprop:Generator_RowEvArgName="abstractRowChangeEvent" msprop:Generator_RowEvHandlerName="abstractRowChangeEventHandler" msprop:Generator_TablePropName="_abstract" msprop:Generator_TableVarName="tableabstract" msprop:Generator_RowDeletingName="abstractRowDeleting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent msprop:Generator_UserColumnName="abstract_Text" msprop:Generator_ColumnPropNameInRow="abstract_Text" msprop:Generator_ColumnVarNameInTable="columnabstract_Text" msprop:Generator_ColumnPropNameInTable="abstract_TextColumn" msdata:ColumnName="abstract_Text" msdata:Ordinal="0">
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="dl_record_Id" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="comment" nillable="true" msprop:Generator_UserTableName="comment" msprop:Generator_RowDeletedName="commentRowDeleted" msprop:Generator_TableClassName="commentDataTable" msprop:Generator_RowChangedName="commentRowChanged" msprop:Generator_RowClassName="commentRow" msprop:Generator_RowChangingName="commentRowChanging" msprop:Generator_RowEvArgName="commentRowChangeEvent" msprop:Generator_RowEvHandlerName="commentRowChangeEventHandler" msprop:Generator_TablePropName="comment" msprop:Generator_TableVarName="tablecomment" msprop:Generator_RowDeletingName="commentRowDeleting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent msprop:Generator_UserColumnName="comment_Text" msprop:Generator_ColumnPropNameInRow="comment_Text" msprop:Generator_ColumnVarNameInTable="columncomment_Text" msprop:Generator_ColumnPropNameInTable="comment_TextColumn" msdata:ColumnName="comment_Text" msdata:Ordinal="0">
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="dl_record_Id" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="req_name_or_addr" nillable="true" msprop:Generator_UserTableName="req_name_or_addr" msprop:Generator_RowDeletedName="req_name_or_addrRowDeleted" msprop:Generator_TableClassName="req_name_or_addrDataTable" msprop:Generator_RowChangedName="req_name_or_addrRowChanged" msprop:Generator_RowClassName="req_name_or_addrRow" msprop:Generator_RowChangingName="req_name_or_addrRowChanging" msprop:Generator_RowEvArgName="req_name_or_addrRowChangeEvent" msprop:Generator_RowEvHandlerName="req_name_or_addrRowChangeEventHandler" msprop:Generator_TablePropName="req_name_or_addr" msprop:Generator_TableVarName="tablereq_name_or_addr" msprop:Generator_RowDeletingName="req_name_or_addrRowDeleting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent msprop:Generator_UserColumnName="req_name_or_addr_Text" msprop:Generator_ColumnPropNameInRow="req_name_or_addr_Text" msprop:Generator_ColumnVarNameInTable="columnreq_name_or_addr_Text" msprop:Generator_ColumnPropNameInTable="req_name_or_addr_TextColumn" msdata:ColumnName="req_name_or_addr_Text" msdata:Ordinal="0">
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="dl_record_Id" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="action" nillable="true" msprop:Generator_UserTableName="action" msprop:Generator_RowDeletedName="actionRowDeleted" msprop:Generator_TableClassName="actionDataTable" msprop:Generator_RowChangedName="actionRowChanged" msprop:Generator_RowClassName="actionRow" msprop:Generator_RowChangingName="actionRowChanging" msprop:Generator_RowEvArgName="actionRowChangeEvent" msprop:Generator_RowEvHandlerName="actionRowChangeEventHandler" msprop:Generator_TablePropName="action" msprop:Generator_TableVarName="tableaction" msprop:Generator_RowDeletingName="actionRowDeleting" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent msprop:Generator_UserColumnName="action_Text" msprop:Generator_ColumnPropNameInRow="action_Text" msprop:Generator_ColumnVarNameInTable="columnaction_Text" msprop:Generator_ColumnPropNameInTable="action_TextColumn" msdata:ColumnName="action_Text" msdata:Ordinal="0">
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="dl_record_Id" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="dl_record_Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="dl_record_Id" msprop:Generator_ColumnPropNameInRow="dl_record_Id" msprop:Generator_ColumnVarNameInTable="columndl_record_Id" msprop:Generator_ColumnPropNameInTable="dl_record_IdColumn" type="xs:int" msdata:AllowDBNull="false" use="prohibited" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//dl_record" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:unique>
+    <xs:keyref name="dl_record_action" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="dl_record_action" msprop:rel_Generator_RelationVarName="relationdl_record_action" msprop:rel_Generator_UserChildTable="action" msprop:rel_Generator_UserParentTable="dl_record" msprop:rel_Generator_ParentPropName="dl_recordRow" msprop:rel_Generator_ChildPropName="GetactionRows">
+      <xs:selector xpath=".//action" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:keyref>
+    <xs:keyref name="dl_record_req_name_or_addr" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="dl_record_req_name_or_addr" msprop:rel_Generator_RelationVarName="relationdl_record_req_name_or_addr" msprop:rel_Generator_UserChildTable="req_name_or_addr" msprop:rel_Generator_UserParentTable="dl_record" msprop:rel_Generator_ParentPropName="dl_recordRow" msprop:rel_Generator_ChildPropName="Getreq_name_or_addrRows">
+      <xs:selector xpath=".//req_name_or_addr" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:keyref>
+    <xs:keyref name="dl_record_comment" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="dl_record_comment" msprop:rel_Generator_RelationVarName="relationdl_record_comment" msprop:rel_Generator_UserChildTable="comment" msprop:rel_Generator_UserParentTable="dl_record" msprop:rel_Generator_ParentPropName="dl_recordRow" msprop:rel_Generator_ChildPropName="GetcommentRows">
+      <xs:selector xpath=".//comment" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:keyref>
+    <xs:keyref name="dl_record_abstract" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="dl_record_abstract" msprop:rel_Generator_RelationVarName="relationdl_record_abstract" msprop:rel_Generator_UserChildTable="abstract" msprop:rel_Generator_UserParentTable="dl_record" msprop:rel_Generator_ParentPropName="dl_recordRow" msprop:rel_Generator_ChildPropName="GetabstractRows">
+      <xs:selector xpath=".//abstract" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:keyref>
+    <xs:keyref name="dl_record_name_or_addr" refer="Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="dl_record_name_or_addr" msprop:rel_Generator_RelationVarName="relationdl_record_name_or_addr" msprop:rel_Generator_UserChildTable="name_or_addr" msprop:rel_Generator_UserParentTable="dl_record" msprop:rel_Generator_ParentPropName="dl_recordRow" msprop:rel_Generator_ChildPropName="Getname_or_addrRows">
+      <xs:selector xpath=".//name_or_addr" />
+      <xs:field xpath="@dl_record_Id" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

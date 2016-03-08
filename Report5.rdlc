@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>25205216-c85b-4221-82d7-84e038d2c3f9</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source =".\fgs.sdf"</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>eec6fd49-5f25-4ed3-9136-09a7a17e6e82</rd:ReportID>
+  <DataSets>
+    <DataSet Name="processingRpt_processingReport_">
+      <Fields>
+        <Field Name="record_status">
+          <DataField>record_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="citation">
+          <DataField>citation</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="license_plate">
+          <DataField>license_plate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ro_name">
+          <DataField>ro_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="make">
+          <DataField>make</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="violation_date">
+          <DataField>violation_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="penalty">
+          <DataField>penalty</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="reject_code">
+          <DataField>reject_code</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ro_city_state">
+          <DataField>ro_city_state</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="date_removed">
+          <DataField>date_removed</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="removal_code">
+          <DataField>removal_code</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ro_address">
+          <DataField>ro_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="date_paid">
+          <DataField>date_paid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>processingRpt</rd:DataSetName>
+        <rd:TableName>processingReport </rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>6.5in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="license_plate">
+        <rd:DefaultName>license_plate</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.625in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!license_plate.Value)</Value>
+      </Textbox>
+      <Textbox Name="citation">
+        <rd:DefaultName>citation</rd:DefaultName>
+        <Top>0.125in</Top>
+        <Width>1in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.25in</Left>
+        <Height>0.375in</Height>
+        <Value>=First(Fields!citation.Value)</Value>
+      </Textbox>
+      <Textbox Name="record_status">
+        <rd:DefaultName>record_status</rd:DefaultName>
+        <Top>0.125in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.25in</Left>
+        <Height>0.25in</Height>
+        <Value>=First(Fields!record_status.Value)</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="fgsDataSet" targetNamespace="http://tempuri.org/fgsDataSet1.xsd" xmlns:mstns="http://tempuri.org/fgsDataSet1.xsd" xmlns="http://tempuri.org/fgsDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="fgsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="fgsConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.File_Generation_System.Properties.Settings.GlobalReference.Default.fgsConnectionString" Provider="Microsoft.SqlServerCe.Client">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="fgsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="fgsDataSet" msprop:Generator_DataSetName="fgsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="processing_report" msprop:Generator_UserTableName="processing_report" msprop:Generator_RowDeletedName="processing_reportRowDeleted" msprop:Generator_RowChangedName="processing_reportRowChanged" msprop:Generator_RowClassName="processing_reportRow" msprop:Generator_RowChangingName="processing_reportRowChanging" msprop:Generator_RowEvArgName="processing_reportRowChangeEvent" msprop:Generator_RowEvHandlerName="processing_reportRowChangeEventHandler" msprop:Generator_TableClassName="processing_reportDataTable" msprop:Generator_TableVarName="tableprocessing_report" msprop:Generator_RowDeletingName="processing_reportRowDeleting" msprop:Generator_TablePropName="processing_report">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="record_status" msprop:Generator_UserColumnName="record_status" msprop:Generator_ColumnPropNameInRow="record_status" msprop:Generator_ColumnVarNameInTable="columnrecord_status" msprop:Generator_ColumnPropNameInTable="record_statusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="citation" msprop:Generator_UserColumnName="citation" msprop:Generator_ColumnVarNameInTable="columncitation" msprop:Generator_ColumnPropNameInRow="citation" msprop:Generator_ColumnPropNameInTable="citationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="license_plate" msprop:Generator_UserColumnName="license_plate" msprop:Generator_ColumnVarNameInTable="columnlicense_plate" msprop:Generator_ColumnPropNameInRow="license_plate" msprop:Generator_ColumnPropNameInTable="license_plateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ro_name" msprop:Generator_UserColumnName="ro_name" msprop:Generator_ColumnVarNameInTable="columnro_name" msprop:Generator_ColumnPropNameInRow="ro_name" msprop:Generator_ColumnPropNameInTable="ro_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="make" msprop:Generator_UserColumnName="make" msprop:Generator_ColumnVarNameInTable="columnmake" msprop:Generator_ColumnPropNameInRow="make" msprop:Generator_ColumnPropNameInTable="makeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="violation_date" msprop:Generator_UserColumnName="violation_date" msprop:Generator_ColumnVarNameInTable="columnviolation_date" msprop:Generator_ColumnPropNameInRow="violation_date" msprop:Generator_ColumnPropNameInTable="violation_dateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="penalty" msprop:Generator_UserColumnName="penalty" msprop:Generator_ColumnVarNameInTable="columnpenalty" msprop:Generator_ColumnPropNameInRow="penalty" msprop:Generator_ColumnPropNameInTable="penaltyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="reject_code" msprop:Generator_UserColumnName="reject_code" msprop:Generator_ColumnVarNameInTable="columnreject_code" msprop:Generator_ColumnPropNameInRow="reject_code" msprop:Generator_ColumnPropNameInTable="reject_codeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="date_paid" msprop:Generator_UserColumnName="date_paid" msprop:Generator_ColumnVarNameInTable="columndate_paid" msprop:Generator_ColumnPropNameInRow="date_paid" msprop:Generator_ColumnPropNameInTable="date_paidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ro_name_or_message" msprop:Generator_UserColumnName="ro_name_or_message" msprop:Generator_ColumnVarNameInTable="columnro_name_or_message" msprop:Generator_ColumnPropNameInRow="ro_name_or_message" msprop:Generator_ColumnPropNameInTable="ro_name_or_messageColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="city_state" msprop:Generator_UserColumnName="city_state" msprop:Generator_ColumnVarNameInTable="columncity_state" msprop:Generator_ColumnPropNameInRow="city_state" msprop:Generator_ColumnPropNameInTable="city_stateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="date_removed" msprop:Generator_UserColumnName="date_removed" msprop:Generator_ColumnVarNameInTable="columndate_removed" msprop:Generator_ColumnPropNameInRow="date_removed" msprop:Generator_ColumnPropNameInTable="date_removedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="removal_code" msprop:Generator_UserColumnName="removal_code" msprop:Generator_ColumnVarNameInTable="columnremoval_code" msprop:Generator_ColumnPropNameInRow="removal_code" msprop:Generator_ColumnPropNameInTable="removal_codeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
